@@ -21,6 +21,9 @@
   .alt-bg{background:var(--tan)}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
   .card{background:#fff;border:1px solid #e2d6bd;border-radius:8px;padding:18px}
+  .card img{width:100%;height:220px;object-fit:cover;border-radius:6px;margin-bottom:10px}
+  .barn{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:20px}
+  .barn img{width:100%;height:240px;object-fit:cover;border-radius:8px}
   .todo{background:#fff6cc;padding:2px 6px;border-radius:3px;font-family:Arial,sans-serif;font-size:.85em}
   footer{background:var(--green);color:#fff;text-align:center;font-size:.95rem}
   footer a{color:#fff}
@@ -69,11 +72,16 @@
     <p>Our horses are the heart of everything we do. Here are a few of them.</p>
     <div class="grid">
       <div class="card"><h3>Pumpkin</h3><p>A small, light-colored pony and a barn favorite.</p></div>
-      <div class="card"><h3>Jack</h3><p>Pumpkin's friend and one of our newer horses. Kids love to brush him, lead him, and give him treats.</p></div>
-      <div class="card"><h3>Lexi</h3><p>A bay mare who has joined our herd.</p></div>
-      <div class="card"><h3>Buster</h3><p>A paint horse with plenty of personality.</p></div>
+      <div class="card"><img src="images/jack.jpg" alt="Jack, a brown pony with a white blaze" loading="lazy"><h3>Jack</h3><p>Pumpkin's friend and one of our newer horses. Kids love to brush him, lead him, and give him treats.</p></div>
+      <div class="card"><img src="images/lexi.jpg" alt="Lexi, a bay mare, standing in the barn aisle" loading="lazy"><h3>Lexi</h3><p>A bay mare who has joined our herd.</p></div>
+      <div class="card"><img src="images/buster.jpg" alt="Buster, a paint horse, grinning in the barn" loading="lazy"><h3>Buster</h3><p>A paint horse with plenty of personality.</p></div>
     </div>
-    <!-- TO ADD: photos (with her OK; riders only if release on file), more horses, full bios -->
+    <div class="barn">
+      <img src="images/barn-1.jpg" alt="Our barn aisle with refinished stall fronts and new rubber mats" loading="lazy">
+      <img src="images/barn-2.jpg" alt="Looking down the barn aisle toward the indoor arena" loading="lazy">
+    </div>
+    <p>Our barn got a makeover in December 2023: refinished stall fronts and a leveled floor with new mats.</p>
+    <!-- TO ADD: Pumpkin photo (only one so far is in a home living room), more horses, full bios -->
   </div>
 </section>
 
